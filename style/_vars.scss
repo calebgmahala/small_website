@@ -1,0 +1,31 @@
+$primary: blue;
+$secondary: darkblue;
+$secondary2: white;
+$secondary3: black;
+$font1: 'Roboto Condensed', sans-serif;
+$font2: 'Joti One', cursive;
+.blueTitle {
+	color: blue;
+	font-family: $font2;
+	font-size: 20px;
+	font-weight: 700;
+}
+.whiteTitle {
+	color: $secondary2;
+	font-family: $font1;
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.italicTitle {
+	color: $secondary;
+	font-family: $font1;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 500;
+}
+.plainTitle {
+	font-family: $font1;
+	font-size: 24px;
+	font-weight: 500;
+}
